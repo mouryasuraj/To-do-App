@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import { ChangeTheme, PreLoader, Title, TodoForm, TodoItem, Heading } from "./components";
+import { ChangeTheme, Title, TodoForm, TodoItem, Heading } from "./components";
 import { TodoContextProvider } from "./context";
 
 function App() {
@@ -52,7 +52,6 @@ function App() {
       <div className="lg:flex flex-wrap justify-around min-h-screen px-4 py-4 bg-white dark:bg-slate-800">
         <ChangeTheme />
         <Heading />
-        <PreLoader />
         <div className="lg:w-[30%] w-full flex items-start mt-[80px] justify-start">
           <Title />
         </div>
